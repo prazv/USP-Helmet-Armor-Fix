@@ -11,10 +11,10 @@ class CfgPatches {
 };
 class CfgWeapons
 {
-	class InventoryItem_Base_F;
-	class ItemCore;
+    class InventoryItem_Base_F;
+    class ItemCore;
     class HeadgearItem: InventoryItem_Base_F{};
-	class H_HelmetB: ItemCore
+    class H_HelmetB: ItemCore
     {
         class ItemInfo: HeadgearItem{};
     };
@@ -7868,4 +7868,5 @@ class CfgWeapons
 			};
 		};
 	};
+
 };
